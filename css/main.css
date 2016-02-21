@@ -1,0 +1,71 @@
+body{
+	color:blue;
+	margin:0;
+}
+
+@font-face {
+	font-family:codebold; src: url("../font/codebold.otf");
+}
+
+@font-face {
+	font-family:VINTAGECOLLEGDEPT_worn; src: url("../font/VINTAGECOLLEGDEPT_worn.otf");
+}
+
+nav  {
+
+	min-width:100%;
+	height:58px;
+	font-family:sans-serif;
+	background-color: white;
+	position:fixed;
+	margin:0px ;
+}
+
+nav ul {
+	float:right;
+	margin: 12px 18px;
+	padding:10px 30px;
+	color: 	#F0FFFF
+}
+
+nav li  {
+	margin:0px 5px ;
+	padding:5px;
+	font-size:12px;
+	display:inline;
+	text-decoration: none;
+}
+
+nav  a:link {
+	text-decoration: none;
+	display: inline;
+}
+
+nav li a {
+	color:black;
+	padding: 2px;
+	font-family:codebold;
+	font-weight: :500px;
+	font-size: 20px;
+}
+
+a:hover{
+	color:red;
+}
+
+#logo{
+	color:#0099ff;
+	font-family: VINTAGECOLLEGDEPT_worn;
+	left:30px;
+	position: fixed;
+	font-size:40px;
+	top:2px;
+}
+
+span{color:red;}
+
+header{
+	background-color: #91D7F9;
+	min-width:100%;
+	height: 500px
+}
